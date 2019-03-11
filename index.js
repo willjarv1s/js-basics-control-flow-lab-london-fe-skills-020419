@@ -22,32 +22,13 @@ function ternaryCheckCity(city) {
 
 
 function switchOnCharmFromTip(tip) {
-
-  let tip
-    
-  switch (tip) {
-    if (tip === 'generous') {
-      "Thank you so much.";
-      break;
-  } else if (tip === 'not as generous') {
-      "Thank you."
-      break;
-  } else if (tip === 'thanks for everything') {
-      "Bye."
-  }
-  }
-
-function switchOnCharmFromTip(tip) {
 switch(tip){
   case "generous":
-    return = "Thank you so much.";
-    break;
+    return "Thank you so much.";
   case "not as generous":
-    return = "Thank you.";
-    break;
+    return "Thank you.";
   case "thanks for everything":
-    return = Bye.";
-    break;
+    return "Bye.";
   }
 }
     
