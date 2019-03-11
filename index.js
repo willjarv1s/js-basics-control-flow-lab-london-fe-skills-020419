@@ -32,7 +32,7 @@ switch (tip) {
 } else if (tip === 'not as generous') {
     "Thank you."
     break;
-} else (tip === 'thanks for everything') {
+} else if (tip === 'thanks for everything') {
     "Bye."
 }
 }
